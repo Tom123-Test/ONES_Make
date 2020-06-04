@@ -22,7 +22,7 @@ pipeline {
            //sleep 30
            sh "pwd"
            echo "runing master"
-           sh "ps -a"
+           sh "ls"
          }
       }
       stage('Test runing'){
